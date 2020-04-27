@@ -1,0 +1,269 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+	font-family: montserrat;
+}
+
+
+/* HEADER */
+header {
+	height: 60px;
+	width: 100%;
+	background-color: #414141;
+	position :fixed;
+	top: 0;
+	z-index: 10;
+	opacity: 0.9;
+}
+
+.logo {	
+	height: 26px;
+	margin-top: 17px;
+}
+
+.header-left {
+	float: left;
+}
+
+.header-right {
+	float: right;
+	margin-right: -25px;
+}
+
+.header-right a {
+	font-size: 12px;
+	line-height: 60px;
+	padding: 0 25px;
+	color: #ffffff;
+	display: block;
+	float: left;
+	transition: all 0.5s;
+}
+
+.header-right a:hover {
+ 	background-color: #E8E8E8;
+ 	transition: all 0.5s;
+	color: #000000;
+}
+
+.menu-icon {
+	color: white;
+	float: right;
+	font-size: 25px;
+	padding: 21px 0;
+	display:none;
+}
+
+
+/* CONTAINER */
+.container {
+	width: 100%;
+	padding: 0 100px;
+	margin: 0 auto;
+}
+
+
+/* HOME */
+.home-wrapper {
+	padding: 160px 0px 100px 0px;
+	background-image: url(background1.png);
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+
+/* TEKS H1 P H2 */
+.home-wrapper h1 {
+	opacity: 0.9;
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+.home-wrapper p {
+	opacity: 0.9;
+	margin-bottom: 20px;
+}
+
+.home-wrapper h2{
+	opacity: 0.9;
+	margin-bottom: 20px;
+}
+
+
+/* TOMBOL EMAIL FB TWT */
+.btn-wrapper {
+	margin: 20px 0;
+}
+
+.btn-wrapper p {
+	margin: 10px 0;
+}
+
+.email {
+	background-color: #D85555;
+}
+
+.facebook {
+	background-color: #3b5998;
+	margin-right: 10px;
+}
+
+.twitter {
+ 	background-color: #55acee;
+}
+
+.btn {
+	padding: 12px 24px;
+	color: white;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 4px;
+}
+
+
+/* CURSOR */
+.btn:hover {
+	background-color: white;
+	color: black;
+	opacity: 0.8;
+}
+
+.fa {
+	margin-right: 5px;
+}
+
+
+/* ABOUT */
+.about-wrapper {
+	padding: 60px 0px;
+	background-color: #E8E8E8;
+	text-align: center;
+}
+
+.heading {
+	margin-bottom: 50px;
+	color: #232324;
+}
+
+.heading h1 {
+	font-size: 50px;
+}
+
+.heading h2 {
+	font-size: 16px;
+}
+
+.foto {
+	float: left;
+ 	width: 25%;
+	position: relative;
+}
+
+.foto img{
+	width: 190px;
+	height: 190px;
+	transition: 0.5s;
+}
+
+.foto img:hover{
+	transform: scale(1.2);
+}
+
+.nama {
+	width: 80%;
+	display: inline-block;
+	margin-top: 20px;
+	font-size: 16px;
+	color: #232324;
+}
+
+.clear {
+  clear: left;
+}
+
+
+/* CONTACT */
+.contact-wrapper {
+	padding: 80px 0px 140px 0px;
+	background-image: url(background2.png);
+	background-size: cover;
+	color: #E8E8E8;
+	text-align: left;
+}
+
+.contact-wrapper h1 {
+	opacity: 0.9;
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+
+.contact-wrapper p {
+	opacity: 0.9;
+}
+
+
+/* LOGIN */
+.login-wrapper {
+	padding: 100px 0px;
+	background-color: #E8E8E8;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 480px;
+  margin: 0 auto 0px;
+  padding: 30px;
+  text-align: center;
+}
+
+.form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form button {
+  outline: 0;
+  background: #414141;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  box-shadow: 0 7px #000000;
+}
+
+.form button:active {
+  background: #414141;
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+/* FOOTER */
+footer {
+	padding-top: 24px;
+	background: #414141;
+	height: 60px;
+	width: 100%;
+}
+
+footer marquee{
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+}
